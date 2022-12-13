@@ -4,18 +4,38 @@
 ////////////////////////////////////////////////////////////////
 
 //Load each art
-import meta from "./art/metaballs.js";
-import fire from "./art/fire.js";
-import fractal from "./art/fractal.js";
-import sunset from "./art/sunset.js";
-import homework from "./art/homework.js";
+//import axs108 from "./art/axs108.js"
+import benscodinghub from "./art/benscodinghub.js"
+//import captaina15 from "./art/captaina15.js"
+import chinny911 from "./art/chinny911.js"
+import drewbarring from "./art/drewbarring.js"
+import fire from "./art/fire.js"
+import fractal from "./art/fractal.js"
+import ihadcode from "./art/ihadcode.js"
+import ishasal from "./art/ishasal.js"
+import juanalbap from "./art/juanalbap.js"
+import mainaliashlesha from "./art/mainaliashlesha.js"
+import metaballs from "./art/metaballs.js"
+import royalv from "./art/royalv.js"
+import rxt06130 from "./art/rxt06130.js"
+import sunset from "./art/sunset.js"
 
 //Put them in an array
 let arts = [
-    homework,
-    meta,
+   // axs108,
+    benscodinghub,
+    //captaina15,
+    chinny911,
+    drewbarring,
     fire,
     fractal,
+    ihadcode,
+    ishasal,
+    juanalbap,
+    mainaliashlesha,
+    metaballs,
+    royalv,
+    rxt06130,
     sunset
 ];
 //And set the first one as the current art to show

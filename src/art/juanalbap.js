@@ -18,7 +18,7 @@ function shade(x, y, t) {
     //❓❓ Question 2
     //❓❓ Question 3
     //❓❓ Question 4
-    return [1,0,1];
+    return [Math.sin(t),Math.cos(t),Math.tan(t)];
 }
 
 /**
@@ -28,11 +28,19 @@ function shade(x, y, t) {
  */
 function draw(ctx, t) {
     //See https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
+    
+    
     ctx.lineWidth = 2;
     ctx.strokeStyle = 'black';
     //❓❓ Question 5
     //❓❓ Question 6
-    ctx.strokeRect(75, 100, 150, 100);
+    
+    ctx.strokeRect(50, 130, 75, 80*Math.cos(t));
+    ctx.strokeRect(50, 130, 75, -40*Math.cos(t));
+    ctx.strokeRect(125, 130, 75, 40*Math.cos(t));
+    ctx.strokeRect(125, 130, 75, -80*Math.cos(t));
+    
+
 }
 
-export default { name: "My Homework", shade, draw }
+export default { name: "Abstract with spinning rectangles", shade, draw }
